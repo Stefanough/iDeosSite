@@ -1,6 +1,311 @@
+<<<<<<< HEAD
 $navy: #001e38;
 $green: #15b78f;
 
 html {
   background-color: $green;
+=======
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+// #068ac5,#1bc6a8 83%,#1fd2a2);
+// background-image: linear-gradient(100deg, #1c5475 20%, #193549 54%, #068ac5,#1bc6a8,#1fd2a2);
+
+body {
+    // background-image: linear-gradient(242deg, #068ac5,#1bc6a8 83%,#1fd2a2);
+    // background-image: linear-gradient(242deg, #56f1f7,#193549 30%);
+    background-image: black;
+}
+video{
+    width: 100%;
+    top:0;
+    
+}
+
+.nav img {
+    height: 20px;
+    width: 20px;
+    left: 10px;
+}
+
+#header-container {
+    position: fixed;
+    width: 100%;
+    top:0;
+    padding: 10px 30px;
+    height: 70px;
+    background-color: black;
+    z-index: 4;
+    
+}
+
+#header-container a {
+    position: relative;
+    top: 5px;
+    padding: 20px 20px;
+    font-family: Courier;
+    font-weight: 600;
+    color: white;
+
+    &:hover {
+    color: #3a00db;
+    text-decoration: none;
+    font-style: normal;
+    }
+}
+
+ul {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 700px;
+    padding: 10px 10px;
+
+}
+#home-container{
+ 
+
+}
+
+#presentation {
+    position: absolute;
+    top: 470px;
+    color: white;
+    font: 20px Courier;
+    left: 350px;
+    // top: 300px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#presentation button{
+    width: 200px;
+    height: 50px;
+    border: solid;
+    // top: 100px;
+    border-color: #193549;
+    background-color:#29009b;
+    color: white; 
+    border-radius: 24.5px;
+    &:hover{
+        background-color:#3a00db;
+    }
+    &:focus {
+        outline: none;
+    }
+    &:active {
+        border: none;
+    }
+}
+
+#presentation h4 {
+    color: white;
+    font: 20px Courier;
+    // left: 300px;
+    // top: 300px;
+    font-size: 50px;
+    z-index: -1;
+}
+
+.details {
+    position: relative;
+    background-color: black;
+    top: -10px;
+    height: 700px;
+    padding: 50px 50px;
+    // font-family: "Titillium Web" serif;
+    font-family: Courier;
+    justify-content: center;
+    text-align:left;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 70px;
+    grid-template-areas: 
+      "a b"
+      "c d";
+   }
+
+.details p {
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.details h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.details div {
+    padding: 50px 50px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+
+
+.build {
+    background-image: linear-gradient(100deg, #068ac5, rgb(64, 25, 136) 83%);
+    grid-area: a;
+    // margin-left: auto;
+    // left: 200px;
+    // top: 50px;
+    
+}
+
+.test {
+    display:inline-block;
+    background-image: linear-gradient(220deg, #01e1ff, #26007F 70%);
+    // background-image: linear-gradient(500deg,  #4c00ff, blue, black 30%);
+    grid-area: b;
+    // top: 50px;
+    // left: 900px;
+    
+}
+
+
+.compile {
+    // position: absolute;
+    background-image: linear-gradient(300deg, #4c00ff,#26007F 70%);
+    grid-area: c;
+    // top: 500px;
+    // left: 200px;
+}
+
+.deploy {
+    // position: absolute;
+    background-image: linear-gradient(100deg, #068ac5,#1bc6a8 83%);
+    grid-area: d;
+    // left: 900px;
+    // top: 500px;
+}
+
+.Bio {
+    margin-top: -10px;
+    background-color: #26007F;
+    font-family: Courier;
+    padding: 20px 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 40px;
+    grid-template-areas:
+    "e e"
+    "f f" 
+    "a b"
+    "c d";
+}
+
+.Bio img {
+    width: 30%;
+    border-radius: 100px;
+}
+.Bio div {
+    justify-content:center;
+    text-align: center;
+    padding: 10px 10px;
+}
+.Bio h5 {
+    font-size: 40px;
+    grid-area: e;
+}
+
+.Bio h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.Bio a {
+    left: 10px;
+}
+
+.Bio p {
+    font-size: 20px;
+    grid-area: f;
+}
+.Bio #Vic {
+    grid-area: a;
+
+}
+
+.Bio #Stephan {
+    grid-area: b;
+
+}
+
+.Bio #Will {
+    grid-area: c;
+
+}
+
+.Bio #James {
+    grid-area: d;
+
+}
+
+.Connect {
+    height: 700px;
+    background-color: #84FFF0;
+    color: #26007F;
+    font-family: Courier;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+
+.Connect #info {
+    top: 35px;
+    margin:0px auto;
+    position: relative;
+    width: 60%;
+    height: 60%;
+
+}
+
+.Connect button {
+    position: relative;
+    margin-top: 10px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: Courier;
+    font-size: 15px;
+    background-color:#29009b;
+    color: white;
+    &:hover{
+        background-color:#3a00db;
+    }
+    &:focus {
+        outline: none;
+    }
+    &:active {
+        border: none;
+    }
+}
+
+.Connect #info textarea, input {
+    padding: 10px 10px;
+    font-family: Courier;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+    margin:0px auto;
+    width: 100%;
+}
+
+.Connect #info textarea {
+    height: 400px;
+}
+
+.Connect #info input {
+    height: 50px;
+>>>>>>> fbc4ed978b57d8db6edc862dbddcc3289fc93a5c
 }
