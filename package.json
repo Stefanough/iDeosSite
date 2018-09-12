@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack; webpack-dev-server --color --open --watch --hot",
-    "deploy": "aws s3 sync dist/ s3://ideos"
+    "deploy": "aws s3 sync dist/ s3://ideos.one"
   },
   "author": "",
   "license": "ISC",
