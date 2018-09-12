@@ -4,7 +4,7 @@ import React from 'react';
 import Header from './components/Header.jsx';
 import Main from './components/Main.jsx';
 import './App.scss';
-import ideosIcon from './../assets/ideosIcon.png'
+import ideosIcon from './../assets/iDeosiconSmall.png'
 
 class App extends React.Component {
   render() {
