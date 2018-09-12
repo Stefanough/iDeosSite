@@ -4,22 +4,20 @@ import React from 'react';
 import Header from './components/Header.jsx';
 import Main from './components/Main.jsx';
 import './App.scss';
+import ideosIcon from './../assets/ideosIcon.png'
 
 class App extends React.Component {
-
-  render () {
-
+  render() {
     return (
-
-  <div>
-    <div id="header-container">
-      <Header />
-    </div>
-    <Main />
-  </div>
+      <div>
+        <div id="header-container">
+          <img src={ideosIcon}></img>
+          <Header />
+        </div>
+        <Main />
+      </div>
     )
-  
-}
+  }
 }
 
 export default App;
