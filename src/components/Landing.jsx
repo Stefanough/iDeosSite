@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundVideo from '../../assets/testoutput.webm';
+import backgroundVideo from '../../assets/smallParticles3.mp4';
 // import { Button } from 'react-bootstrap';
 
 const Landing = () => (
