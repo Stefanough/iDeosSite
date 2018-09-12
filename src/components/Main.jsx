@@ -15,7 +15,6 @@ const Main = () => (
       <Route path="/archive" component={ArchiveOrg} />
       <Route path="/documentation" component={Documentation} />
     </Switch>
-
   </main>
 );
 
