@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundVideo from './../../assets/BlueParticles.mov';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 
 const Landing = () => {
   return (
