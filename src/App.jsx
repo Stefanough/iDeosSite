@@ -7,21 +7,17 @@ import './App.scss';
 import ideosIcon from './../assets/ideosIcon.png'
 
 class App extends React.Component {
-
-  render () {
-
+  render() {
     return (
-
-  <div>
-    <div id="header-container">
-      <img src={ideosIcon}></img>
-      <Header />
-    </div>
-    <Main />
-  </div>
+      <div>
+        <div id="header-container">
+          <img src={ideosIcon}></img>
+          <Header />
+        </div>
+        <Main />
+      </div>
     )
-  
-}
+  }
 }
 
 export default App;

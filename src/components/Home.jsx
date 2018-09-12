@@ -7,11 +7,11 @@ import { Button } from 'react-bootstrap';
 
 const Home = () => (
   <div id="home">
-  <Landing></Landing>
-  <Details></Details>
-  <Bio></Bio>
-  <Connect></Connect>
+    <Landing></Landing>
+    <Details></Details>
+    <Bio></Bio>
+    <Connect></Connect>
   </div>
-)
+);
 
 export default Home;

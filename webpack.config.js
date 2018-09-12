@@ -34,8 +34,8 @@ module.exports = {
 
     },
     {
-      test: /\.mov$/,
-      loader: 'url-loader?limit=100000mimetype=video/mov',
+      test: /\.webm$/,
+      loader: 'file-loader',
     },
     {
       test: /\.png$/,
