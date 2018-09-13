@@ -3,9 +3,9 @@ import { Switch, Route } from 'react-router-dom';
 
 
 // import Routes to render
-import ArchiveOrg from './ArchiveOrg.jsx';
-import Home from './Home.jsx';
-import Documentation from './Documentation.jsx';
+import ArchiveOrg from './ArchiveOrg';
+import Home from './Home';
+import Documentation from './Documentation';
 
 
 const Main = () => (

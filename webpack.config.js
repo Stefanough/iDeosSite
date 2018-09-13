@@ -13,6 +13,13 @@ module.exports = {
   //   path: path.join(__dirname, 'dist'),
   //   filename: 'bundle.js'
   // },
+  resolve: {
+    extensions: [
+      '.js',
+      '.jsx',
+      '.css',
+    ],
+  },
   module: {
     rules: [{
       test: /\.js$|\.jsx$/,
@@ -34,8 +41,12 @@ module.exports = {
 
     },
     {
+      test: /\.mov$/,
+      loader: 'url-loader?limit=100000mimetype=video/mov',
+    },
+    {
       test: /\.webm$/,
-      loader: 'file-loader',
+      loader: 'url-loader?limit=100000mimetype=video/webm',
     },
     {
       test: /\.png$/,
