@@ -5,7 +5,7 @@ const Connect = () => {
 
   //       const sendEmail = (dest, text) => {
 
-  //         console.log($('#emailAdress').val())
+  //         console.log($('#emailAddress').val())
   //           // Only needed if you don't have a real mail account for testing
   //   nodemailer.createTestAccount((err, account) => {
   //       // create reusable transporter object using the default SMTP transport
@@ -41,8 +41,6 @@ const Connect = () => {
   //       });
   //   });
   //       }
-
-
 
   return (
     <div className="Connect">

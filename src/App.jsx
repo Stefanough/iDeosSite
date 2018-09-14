@@ -1,10 +1,10 @@
 import React from 'react';
 
 // import components
-import Header from './components/Header.jsx';
-import Main from './components/Main.jsx';
+import Header from './components/Header';
+import Main from './components/Main';
 import './App.scss';
-import ideosIcon from './../assets/ideosIcon.png'
+import ideosIcon from '../assets/iDeosiconSmall.png';
 
 class App extends React.Component {
   render() {

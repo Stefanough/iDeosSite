@@ -1,9 +1,9 @@
 import React from 'react';
-import Landing from './Landing.jsx';
-import Details from './Details.jsx';
-import Bio from './Bio.jsx';
-import Connect from './Connect.jsx';
-import { Button } from 'react-bootstrap';
+import Landing from './Landing';
+import Details from './Details';
+import Bio from './Bio';
+import Connect from './Connect';
+// import { Button } from 'react-bootstrap';
 
 const Home = () => (
   <div id="home">
