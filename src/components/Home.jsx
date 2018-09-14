@@ -11,6 +11,7 @@ const Home = () => (
     <Details></Details>
     <Bio></Bio>
     <Connect></Connect>
+    <div id="footer">© 2018 iDeos, LLC.</div>
   </div>
 );
 

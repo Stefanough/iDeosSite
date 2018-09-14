@@ -9,8 +9,14 @@ body {
     background-image: black;
 }
 video{
-    width: 100%;
-    top:0;
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    // width: auto; 
+    // height: auto;
+    z-index: -100;
     
 }
 
@@ -21,7 +27,7 @@ video{
 }
 
 #header-container {
-    position: fixed;
+    // position: fixed;
     width: 100%;
     top:0;
     padding: 10px 30px;
@@ -60,28 +66,24 @@ ul {
     padding: 10px 10px;
 
 }
-#home-container{
+#home-container {
+    position: relative;
+    top: 0px;
+    height: 1300px;
+    color: white;
+    font-family: Courier;
+    // left: 350px;
+    // top: 300px;
+    justify-content: center;
+    text-align: center;
  
 
 }
 
-#presentation {
-    position: absolute;
-    top: 470px;
-    color: white;
-    font: 20px Courier;
-    left: 350px;
-    // top: 300px;
-    justify-content: center;
-    text-align: center;
-
-}
-
-#presentation button{
+#home-container button {
     width: 200px;
     height: 50px;
     border: solid;
-    // top: 100px;
     border-color: #193549;
     background-color:#29009b;
     color: white; 
@@ -97,29 +99,44 @@ ul {
     }
 }
 
-#presentation h4 {
-    color: white;
-    font: 20px Courier;
-    // left: 300px;
-    // top: 300px;
+#home-container h4 {
+    // position: absolute;
+    margin-top: 350px;
     font-size: 50px;
-    z-index: -1;
+    // left: 300px;
+}
+
+#home-container h1 {
+    // position: absolute;
+    margin-top: 650px;
+    font-size: 70px;
+    // left: 300px;
+}
+
+
+
+#home-container p {
+    font-size: 25px;
+    // left: 300px;
+    // display: inline-block;
+    // vertical-align: middle;
+    // line-height: normal;
 }
 
 .details {
     position: relative;
     background-color: black;
     top: -10px;
-    height: 700px;
-    padding: 50px 50px;
+    height: 1000px;
+    padding: 220px;
     // font-family: "Titillium Web" serif;
     font-family: Courier;
     justify-content: center;
     text-align:left;
     display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 250px 250px;
-    grid-gap: 70px;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 100px;
     grid-template-areas: 
       "a b"
       "c d";
@@ -249,7 +266,7 @@ ul {
 }
 
 .Connect {
-    height: 700px;
+    height: 900px;
     background-color: #84FFF0;
     color: #26007F;
     font-family: Courier;
@@ -307,4 +324,16 @@ ul {
 .Connect #info input {
     padding: 0px 0px;
     height: 50px;
+}
+
+#footer {
+    margin-bottom: 0px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font: 15px Courier;
+    color: white;
+    padding: 10px;
 }
