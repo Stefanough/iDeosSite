@@ -17,7 +17,6 @@ video{
     // width: auto; 
     // height: auto;
     z-index: -100;
-    
 }
 
 .nav img {
@@ -64,7 +63,6 @@ ul {
     top: 10px;
     width: 700px;
     padding: 10px 10px;
-
 }
 #home-container {
     position: relative;
@@ -76,8 +74,6 @@ ul {
     // top: 300px;
     justify-content: center;
     text-align: center;
- 
-
 }
 
 #home-container button {
@@ -160,15 +156,12 @@ ul {
     padding: 10px 10px;
 }
 
-
-
 .build {
     background-image: linear-gradient(100deg, #068ac5, rgb(64, 25, 136) 83%);
     grid-area: a;
     // margin-left: auto;
     // left: 200px;
     // top: 50px;
-    
 }
 
 .test {
@@ -178,9 +171,7 @@ ul {
     grid-area: b;
     // top: 50px;
     // left: 900px;
-    
 }
-
 
 .compile {
     // position: absolute;

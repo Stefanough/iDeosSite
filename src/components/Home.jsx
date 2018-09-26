@@ -7,10 +7,10 @@ import Connect from './Connect';
 
 const Home = () => (
   <div id="home">
-    <Landing></Landing>
-    <Details></Details>
-    <Bio></Bio>
-    <Connect></Connect>
+    <Landing />
+    <Details />
+    <Bio />
+    <Connect />
     <div id="footer">© 2018 iDeos, LLC.</div>
   </div>
 );
