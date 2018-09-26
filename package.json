@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack; webpack-dev-server --color --open --watch --hot",
+    "start": "webpack; webpack-dev-server --open --hot",
     "deploy": "aws s3 sync dist/ s3://ideos.one"
   },
   "author": "",
@@ -39,6 +39,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.2",
+    "react-hot-loader": "^4.3.11",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "url-loader": "^1.1.1",

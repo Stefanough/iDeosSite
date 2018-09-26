@@ -1,23 +1,33 @@
-// const path = require('path');
+const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 const htmlPlugin = new HtmlWebPackPlugin({
-  template: './src/index.html',
+  template: './public/index.html',
   filename: './index.html',
 });
 
 module.exports = {
   mode: 'development',
-  // entry: './src/index.js',
-  // output: {
-  //   path: path.join(__dirname, 'dist'),
-  //   filename: 'bundle.js'
-  // },
+  entry: {
+    app: ['./src/'],
+  },
+  devtool: 'inline-source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'client/dist/'),
+    hot: true,
+    historyApiFallback: true,
+  },
+  plugins: [htmlPlugin],
+  output: {
+    path: path.join(__dirname, 'dist'),
+    filename: 'bundle.js',
+  },
   resolve: {
     extensions: [
       '.js',
       '.jsx',
       '.css',
+      '.scss',
     ],
   },
   module: {
@@ -74,8 +84,4 @@ module.exports = {
     },
     ],
   },
-  plugins: [htmlPlugin],
-  // devServer: {
-  //   contentBase: path.join(__dirname, 'public')
-  // }
 };
